@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <img class="header__main-photo" src="img/petlya.png" alt="">
+                <div class="header__main-circle header__main-circle_1"></div>
+                <div class="header__main-circle header__main-circle_2"></div>
+                <div class="header__main-circle header__main-circle_3"></div>
+                <div class="header__main-circle header__main-circle_4"></div>
+                <div class="header__main-circle header__main-circle_5"></div>
+                <div class="header__circle-text header__circle-text_1">
+                    <img class="header__circle-img" src="img/point.png" alt="">
+                    <p class="header__circle-subtitle">Прочен и эластичен</p>
+                </div>
+                <div class="header__circle-text header__circle-text_2">
+                    <img class="header__circle-img" src="img/point.png" alt="">
+                    <p class="header__circle-subtitle">Экономия до 50% времени  при закрытии раны</p>
+                </div>
+                <div class="header__circle-text header__circle-text_3">
+                    <img class="header__circle-img" src="img/point.png" alt="">
+                    <p class="header__circle-subtitle">Используется более чем в 1000 клиниках США, Европы и России</p>
+                </div>
+                <div class="header__block">
+                    <div class="header__logo">
+                        <img src="img/logo.png" alt="" class="logo__img">
+                    </div>
+                    <nav class="navbar">
+                        <ul class="navbar__list" id="dropdown">
+                            <li class="navbar__item">
+                                <a href="about-as" class="navbar__link">О компании</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="material" class="navbar__link">Продукция</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="application-area" class="navbar__link">Область применения</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="compare" class="navbar__link">Преимущества</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="content" class="navbar__link">Отзывы специалистов</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="" class="navbar__link navbar__link_ru">RU</a>
+                                <a href="" class="navbar__link navbar__link_en">EN</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a class="navbar__link navbar__link_phone" href="tel:tel:+74951390443">+7 (495)139-04-43</a>
+                            </li>
+                        </ul>
+                        <div class="navbar_dropdown" onclick="dropDown()">
+                            <span class="navbar__icon"></span>
+                            <span class="navbar__icon"></span>
+                            <span class="navbar__icon"></span>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container">
+                <div class="main__block">
+                    <div class="main__logo">
+                        QUILL™
+                    </div>
+                    <div class="main__text">
+                        <h1 class="main__title">Безузловое закрытие ран</h1>
+                        <p class="main__subtitle">Разработан для устранения недостатков традиционного шовного материала</p>
+                    </div>
+                    <div class="main__button">
+                        <button class="btn  main__btn_first">Ознакомиться с QUILL™</button>
+                        <button class="btn main__btn_last">Оставить заявку</button>
+                    </div>
+                    <div class="block-video">
+                        <img class="main__arrow" src="img/Vector.png" alt="">
+                        <div class="main-video">
+                            <div class="block-video__subtitle">
+                                Использование нитей QUILL™ без помощи “третьих рук” в 3 простых шага:
+                            </div>
+                            <div class="main-video__block">
+                                <div class="main-video__box">
+                                    <img class="main-video__btn" src="img/Group.png" alt="">
+                                </div>
+                                <div class="main-video__box">
+                                    <img class="main-video__btn" src="img/Group.png" alt="">
+                                </div>
+                                <div class="main-video__box">
+                                    <img class="main-video__btn" src="img/Group.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <section id="material" class="material" >
+            <div class="container">
+                <div class="caption">
+                    <h3 class="caption__title">Материалы QUILL™</h3>
+                    <p class="caption__subtitle">Успешно прошли клинические испытания на территории РФ</p>
+                </div>
+                <div class="material__box">
+                    <div class="material__item material__item_left">
+                        <img class="material__img"  src="img/quill-monoderm.png" alt="">
+                        <p class="material__name">
+                            MONODERM
+                            <sup>TM</sup>
+                        </p>
+                        <button class="btn material__btn">Подробнее</button>
+                    </div>
+                    <div class="material__item material__item_right">
+                        <img class="material__img"  src="img/quill-pdo.png" alt="">
+                        <p class="material__name">PDO</p>
+                        <button class="btn material__btn">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="application-area" class="application-area">
+            <div class="container">
+                <div class="caption">
+                    <h3 class="caption__title">Области применения QUILL™</h3>
+                </div>
+                <div class="application-area__list">
+                    <div class="application-area__item application-area__item_active" onclick="currentSlide(0)">
+                        <img class="application-area__icon" src="img/Group2.png" alt="">
+                        <p class="application-area__icon-text">Ортопедическая хирургия</p>
+                    </div>
+                    <div class="application-area__item" onclick="currentSlide(1)">
+                        <img class="application-area__icon" src="img/Group2.2.svg" alt="">
+                        <p class="application-area__icon-text">Урология</p>
+                    </div>
+                    <div class="application-area__item" onclick="currentSlide(2)">
+                        <img class="application-area__icon" src="img/Group2.3.svg" alt="">
+                        <p class="application-area__icon-text">Гинекология</p>
+                    </div>
+                    <div class="application-area__item" onclick="currentSlide(3)">
+                        <img class="application-area__icon" src="img/Group2.1.png" alt="">
+                        <p class="application-area__icon-text">Пластическая хирургия</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slider">
+                <div class="slider__box">
+                    <div class="slider__item-left">
+                        <img class="slider__images-thread" src="img/zasechki.png" alt="">
+                        <img class="slider__images-pulse" src="img/voln.png" alt="">
+                        <img class="slider__images-next" src="img/strela.png" onclick="plusSlides(1)">
+                        <div class="slider__content">
+                            <div class="slider__title">
+                                Ортопедическая хирургия
+                            </div>
+                            <div class="slider__subtitle">
+                                Чаще всего используется для аппроксимации мягких тканей в артропластике тазобедренного и коленного суставов
+                            </div>
+                            <div class="slider__txt">
+                                Эндопротезирование коленного сустава
+                                Замена бедра, Позвоночник
+                            </div>
+                            <div class="slider__list">
+                                <div class="slider__item">
+                                    <img class="slider__list-style" src="img/point.png" alt="">
+                                    <p class="slider__item-text">Идеальны для достижения субоптимальных тканей</p>
+                                </div>
+                                <div class="slider__item">
+                                    <img class="slider__list-style" src="img/point.png" alt="">
+                                    <p class="slider__item-text">Более прочные и влагонепроницаемые <br> по сравнению с традиционными нитями</p>
+                                </div>
+                                <div class="slider__item">
+                                    <img class="slider__list-style" src="img/point.png" alt="">
+                                    <p class="slider__item-text">Экономия до 50% времени <br> при закрытии раны</p>
+                                </div>
+                                <div class="slider__item">
+                                    <img class="slider__list-style" src="img/point.png" alt="">
+                                    <p class="slider__item-text">Меньше эффект памяти</p>
+                                </div>
+                            </div>
+                            <div class="slider-video__block">
+                                <div class="slider-video__box">
+                                    <img class="slider-video__btn" src="img/Group.png" alt="">
+                                </div>
+                                <div class="slider-video__box">
+                                    <img class="slider-video__btn" src="img/Group.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__item-right">
+                        <div class="slider__content">
+                            <div class="slider__title">
+                                Урология
+                            </div>
+                            <div class="slider__subtitle slider__subtitle_right">
+                                Обычно используется для закрытия мягких тканей при простатэктомии, выполненную роботизированным способом и частичной нефрэктомии.
+                            </div>
+                            <img class="slider__img-right" src="img/Group7.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__box">
+                    <div class="slider__item-left">
+                        <img class="slider__images-thread" src="img/zasechki.png" alt="">
+                        <img class="slider__images-pulse" src="img/voln.png" alt="">
+                        <img class="slider__images-next" src="img/strela.png" alt="" onclick="plusSlides(2)">
+                        <img class="slider__img-urology" src="img/Group7.png" alt="">
+                        <div class="slider__content">
+                            <div class="slider__title">
+                                Урология
+                            </div>
+                            <div class="slider__subtitle">
+                                Обычно используется для закрытия мягких тканей
+                                при простатэктомии, выполненную роботизированным способом и частично роботизированной нефрэктономии.
+                            </div>
+                            <div class="slider__list">
+                                <div class="slider__item">
+                                    <img class="slider__list-style" src="img/point.png" alt="">
+                                    <p class="slider__item-text">
+                                        Помогает избежать отторжение ткани, облегчая аппроксимацию<br>
+                                        шейки пузыря  и уретры во время уретровезикального анастомоза<br>
+                                        или восстановления задней стенки
+                                    </p>
+                                </div>
+                                <div class="slider__item">
+                                    <img class="slider__list-style" src="img/point.png" alt="">
+                                    <p class="slider__item-text">
+                                        Делает аппроксимацию мягких тканей быстрее <br>
+                                        и легче благодаря безузловому методу
+                                    </p>
+                                </div>
+                                <div class="slider__item">
+                                    <img class="slider__list-style" src="img/point.png" alt="">
+                                    <p class="slider__item-text">
+                                        Обеспечивает большую непроницаемость влаги<br>
+                                        при выполнении уретровезикального анастомоза
+                                    </p>
+                                </div>
+                                <div class="slider__item">
+                                    <img class="slider__list-style" src="img/point.png" alt="">
+                                    <p class="slider__item-text">
+                                        Насечки обеспечивают удержание ткани, исключая<br>
+                                        помощь «третьих рук
+                                    </p>
+                                </div>
+                                <div class="slider__item">
+                                    <img class="slider__list-style" src="img/point.png" alt="">
+                                    <p class="slider__item-text">Равномерное распределение напряженности по нити</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__item-right">
+                        <div class="slider__content">
+                            <div class="slider__title">
+                                Гинекология
+                            </div>
+                            <div class="slider__subtitle slider__subtitle_right">
+                                Чаще всего используется для аппроксимации мягких тканей в артропластике тазобедренного и коленного суставов
+                            </div>
+                            <img class="slider__img-right" src="img/Group7.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__box">
+                    <div class="slider__item-left">
+                        <img class="slider__images-thread" src="img/zasechki.png" alt="">
+                        <img class="slider__images-pulse" src="img/voln.png" alt="">
+                        <img class="slider__images-next" src="img/strela.png" onclick="plusSlides(3)" alt="">
+                        <div class="slider__content">
+                            <div class="slider__title">
+                                Гинекология
+                            </div>
+                            <div class="slider__subtitle">
+                                Обычно используется для аппроксимации мягких тканей в миомэктомии, гистерэктомии, процедур сакроколпопексии.
+                            </div>
+                            <div class="slider__txt">
+                                Гистерэктомия (открытая, лапароскопия или роботизированная) Миомэктомия роботизированная
+                                Сакроколпопексия роботизированная
+                            </div>
+                            <div class="slider__list">
+                                <div class="slider__item">
+                                    <img class="slider__list-style" src="img/point.png" alt="">
+                                    <p class="slider__item-text">
+                                        Использование Quill™ в гистерэктомии связано с меньшим<br>
+                                        количеством случаев разрыва влагалищной манжеты по<br>
+                                        сравнению с традиционным шовным материалом
+                                    </p>
+                                </div>
+                                <div class="slider__item">
+                                    <img class="slider__list-style" src="img/point.png" alt="">
+                                    <p class="slider__item-text">
+                                        В миометрии сокращает время заживления шва <br>
+                                        и продолжительности оперативного вмешательства
+                                    </p>
+                                </div>
+                                <div class="slider__item">
+                                    <img class="slider__list-style" src="img/point.png" alt="">
+                                    <p class="slider__item-text">
+                                        Равномерное распределение напряженности по нити.<br>
+                                        Насечки позволяют закрепить ткани без помощи «третьих рук
+                                    </p>
+                                </div>
+                                <div class="slider__item">
+                                    <img class="slider__list-style" src="img/point.png" alt="">
+                                    <p class="slider__item-text">
+                                        Помогает избежать отторжение ткани, облегчая<br>
+                                        аппроксимацию миометрии
+                                    </p>
+                                </div>
+                                <div class="slider__item">
+                                    <img class="slider__list-style" src="img/point.png" alt="">
+                                    <p class="slider__item-text">
+                                        Аппроксимация мягких тканей происходит быстрее<br>
+                                        и легче благодаря безузловому методу.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__item-right">
+                        <div class="slider__content">
+                            <div class="slider__title">
+                                Пластическая хирургия
+                            </div>
+                            <div class="slider__subtitle slider__subtitle_right">
+                                Обычно используется для мягких тканей: подтяжки бровей, поверхностная пластика мышечно-апоневротической системы (ППМС) и боковая смасэктомия, открытая шейная платисмапластика, мастопексия и редукционная маммопластика, абдоминопластика.
+                            </div>
+                            <img class="slider__img-right" src="img/Group9.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__box">
+                    <div class="slider__item-left">
+                        <img class="slider__images-thread" src="img/zasechki.png" alt="">
+                        <img class="slider__images-pulse" src="img/voln.png" alt="">
+                        <img class="slider__images-next" src="img/strela.png" onclick="plusSlides(4)">
+                        <div class="slider__content">
+                            <div class="slider__title">
+                                Пластическая хирургия
+                            </div>
+                            <div class="slider__subtitle">
+                                Обычно используется для мягких тканей: подтяжки бровей, поверхностная пластика мышечно-апоневротической системы (ППМС) и боковая смасэктомия, открытая шейная платисмапластика, мастопексия и редукционная маммопластика, абдоминопластика.
+                            </div>
+                            <div class="slider__list">
+                                <div class="slider__item">
+                                    <img class="slider__list-style" src="img/point.png" alt="">
+                                    <p class="slider__item-text">Множественные точки фиксации материала позволяют закрывать сложные раны</p>
+                                </div>
+                                <div class="slider__item">
+                                    <img class="slider__list-style" src="img/point.png" alt="">
+                                    <p class="slider__item-text">Quill™ может использоваться в более глубоких слоях ткани вместоузловых швов</p>
+                                </div>
+                                <div class="slider__item">
+                                    <img class="slider__list-style" src="img/point.png" alt="">
+                                    <p class="slider__item-text">Может устранить необходимость в дренажах при абдоминопластике</p>
+                                </div>
+                                <div class="slider__item">
+                                    <img class="slider__list-style" src="img/point.png" alt="">
+                                    <p class="slider__item-text">Превосходное заживление рубцов, держит форму после мастопексии</p>
+                                </div>
+                                <div class="slider__item">
+                                    <img class="slider__list-style" src="img/point.png" alt="">
+                                    <p class="slider__item-text">Использование Quill™ снижает риск образования серомы</p>
+                                </div>
+                                <div class="slider__item">
+                                    <img class="slider__list-style" src="img/point.png" alt="">
+                                    <p class="slider__item-text">
+                                        Непрерывные насечки уменьшают резанные края раны, уменьшая<br>
+                                        образование шрама и необходимость косметической коррекции
+                                    </p>
+                                </div>
+                                <div class="slider__item">
+                                    <img class="slider__list-style" src="img/point.png" alt="">
+                                    <p class="slider__item-text">
+                                        Повышает эффективность за счет устранения необходимости<br>
+                                        в нескольких прерывающихся швах
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__item-right">
+                        <div class="slider__content">
+                            <div class="slider__title">
+                                Ортопедическая хирургия
+                            </div>
+                            <div class="slider__subtitle slider__subtitle_right">
+                                Чаще всего используется для аппроксимации мягких тканей
+                            </div>
+                            <img class="slider__img-right" src="img/Group7.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="content" class="content">
+            <div class="container">
+                <div class="caption content__caption">
+                    <h3 class="caption__title">Клинические данные ведущих зарубежных хирургов об использовании QUILL™</h3>
+                </div>
+                <div class="content__box">
+                    <div class="content__txt">
+                        <div class="content_block-text">
+                            <h3 class="content__title">Омоложение лица, увеличение лифтинга щёк</h3>
+                            <p class="content__subtitle">Использование рассасывающихся нитей с насечками Quill™ привело к существенным улучшениям, позволив установку складки на складку. 167 операций были выполнены за прошлые 4 года, используя эту технику. Клинические данные были успешными, приведя к естественному эффекту, вызванному мобилизацией и сильной фиксацией носо-губной складки и челюстной складки в направлении их удаления</p>
+                            <a class="content__link" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5801779/?utm_content=81147047&utm_medium=social&utm_source=twitter&hss_channel=tw-1044276058156142593">*Ссылка на источник</a>
+                        </div>
+                        <div class="content_block-text">
+                            <h3 class="content__title">Клинические данные - ортопедическая хирургия</h3>
+                            <p class="content__subtitle">Vakil JJ, «Артропластика», 2010г. Отмечено, что нити Quill™ настолько же прочны, как и традиционный узловой материал, но более устойчивы на разрыв</p>
+                            <a class="content__link" href="https://www.yumpu.com/en/document/read/12005279/jon-ivar-einarsson-md-mph-director-of-minimally-invasive-">*Ссылка на источник</a>
+                        </div>
+                        <div class="content_block-text">
+                            <h3 class="content__title">Клинические данные по пластической хирургии</h3>
+                            <p class="content__subtitle">Розен, AD. Пластическая и реконструктивная хирургия, март 2010 года « Использование нитей Quill™ может устранить необходимость в дренажах при абдоминопластике.</p>
+                            <a class="content__link" href="https://www.yumpu.com/en/document/view/4512395/clinical-roundtable-in-orthopedics-quill-device-resource-portal">*Ссылка на источник</a>
+                        </div>
+                    </div>
+                    <div class="content__txt">
+                        <div class="content_block-text">
+                            <h3 class="content__title">Pезультаты в гинекологической хирургии</h3>
+                            <p class="content__subtitle">Правильный выбор нити с насечками и 2-слойная техника привели к статистически значимому снижению частоты ранозаживляющих осложнений по сравнению с предыдущим опытом применения традиционных плетеных рассасывающихся швов. Другие преимущества – увеличение скорости закрытия раны, безопасность закрытия раны, и повышение удовлетворения хирурга при использовании нитей с насечками</p>
+                            <a class="content__link" href="https://www.yumpu.com/en/document/read/12005279/jon-ivar-einarsson-md-mph-director-of-minimally-invasive">*Ссылка на источник</a>
+                        </div>
+                        <div class="content_block-text">
+                            <h3 class="content__title">Quill™ шовные материалы с насечками при контурной пластике тела: сравнение рассасывающихся нитей в разрезе 6 лет</h3>
+                            <p class="content__subtitle">Правильный выбор нити с насечками и 2-слойная техника привели к статистически значимому снижению частоты ранозаживляющих осложнений по сравнению с предыдущим опытом применения традиционных плетеных рассасывающихся швов. Другие преимущества – увеличение скорости закрытия раны, безопасность закрытия раны, и повышение удовлетворения хирурга при использовании нитей с насечками</p>
+                            <a class="content__link" href="https://doi.org/10.1177/1090820X13498506">*Ссылка на источник</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="compare" class="compare">
+            <div class="container compare__container">
+                <div class="caption">
+                    <h3 class="caption__title">QUILL™ в сравнении с традиционными методами</h3>
+                </div>
+                <div class="compare__block">
+                    <div class="compare__inner_specification">
+                        <img class="compare__images-thread" src="img/petlyamini.png" alt="">
+                        <div class="compare__list">
+
+                            <h4 class="compare__title-specification">Безопасность с каждым стежком</h4>
+
+                            <div class="compare__item">
+                                <img class="compare__list-style" src="img/point.png" alt="">
+                                <p class="compare__item-text">Quill™ позволяет обеспечить более равномерное
+                                    распределение натяжения на мягких тканях по мере их апроксимации,
+                                    при этом натяжение распределяется по всей длине раны</p>
+                            </div>
+                            <div class="compare__item">
+                                <img class="compare__list-style" src="img/point.png" alt="">
+                                <p class="compare__item-text">Поскольку это безузловое закрытие, «третья рука не требуется»,
+                                    и может потребоваться меньше материала, чем обычно используется при традиционном закрытии </p>
+                            </div>
+                            <div class="compare__item">
+                                <img class="compare__list-style" src="img/point.png" alt="">
+                                <p class="compare__item-text">Контролирует и распределяет напряжение по ране</p>
+                            </div>
+                            <div class="compare__item">
+                                <img class="compare__list-style" src="img/point.png" alt="">
+                                <p class="compare__item-text">Облегчает закрытие сложных ран</p>
+                            </div>
+                            <div class="compare__item">
+                                <img class="compare__list-style" src="img/point.png" alt="">
+                                <p class="compare__item-text">Минимизирует трудности, связанные с узлами и замкнутыми петлями</p>
+                            </div>
+                            <div class="compare__item">
+                                <img class="compare__list-style" src="img/point.png" alt="">
+                                <p class="compare__item-text">Создает множественные точки фиксации и балансирует систему</p>
+                            </div>
+
+                            <h4 class="compare__title-specification">Безопасность с каждым стежком</h4>
+
+                            <div class="compare__item">
+                                <img class="compare__list-style" src="img/point.png" alt="">
+                                <p class="compare__item-text">Сокращает временные издержки</p>
+                            </div>
+                            <div class="compare__item">
+                                <img class="compare__list-style" src="img/point.png" alt="">
+                                <p class="compare__item-text">В зависимости от техники, уменьшает шов</p>
+                            </div>
+                            <div class="compare__item">
+                                <img class="compare__list-style" src="img/point.png" alt="">
+                                <p class="compare__item-text">Исключает возможность помощи «третьих рук»</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="compare__inner_icon">
+                        <img class="compare__inner-image-petlya" src="img/petlya2.png" alt="">
+                        <h4 class="compare__title-icon">Больше не значит лучше</h4>
+                        <div class="compare__icon-list">
+                            <div class="compare__item-icon">
+                                <p class="compare__size-thread">Quill™<br> 0.00274</p>
+                                <img class="compare__image-icon" src="img/element1.png" alt="">
+                                <img class="compare__image-line" src="img/slimline.png" alt="">
+                                <p class="compare__analog">Аналог<br> 0.00422</p>
+                                <p class="compare__percent">На 54%<br>
+                                    больше инородного тела</p>
+                            </div>
+                            <div class="compare__item-icon">
+                                <p class="compare__size-thread">Quill™ <br>0.00181</p>
+                                <img class="compare__image-icon" src="img/element2.png" alt="">
+                                <img class="compare__image-line_2" src="img/slimline.png" alt="">
+                                <p class="compare__analog">Аналог<br> 0.00292</p>
+                                <p class="compare__percent">На 61%<br>
+                                    больше инородного тела</p>
+                            </div>
+                            <div class="compare__item-icon">
+                                <p class="compare__size-thread">Quill™ <br>0.00115</p>
+                                <img class="compare__image-icon" src="img/element3.png" alt="">
+                                <img class="compare__image-line_3" src="img/slimline.png" alt="">
+                                <p class="compare__analog">Аналог<br> 0.00193</p>
+                                <p class="compare__percent">На 68%<br>
+                                    больше инородного тела</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about-as" class="about-as">
+            <div class="container">
+                <div class="caption">
+                    <h3 class="caption__title">Наша компания</h3>
+                </div>
+                <div class="about-as__box">
+                    <div class="about-as__info">
+                        <h4 class="about-as__short-title">Информация об официальном дистрибьютере</h4>
+                        <p class="about-as__text">
+                            ООО «Ви Эр Групп» - это динамично развивающаяся компания, занимающая уверенные позиции на рынке шовных хирургических материалов. Это команда профессионалов и единомышленников, имеющих общую миссию и цель. Свои продукты нам доверяют продвигать лучшие производители в мире медицины, а мы успешно представляем их на медицинском рынке. Благодаря профессионализму и эффективной работе каждого сотрудника и всей команды в целом, нам удалось завоевать признание и доверие крупных компаний и лечебных учреждений России.
+                            <br>ООО «Ви Эр Групп» является официальным дистрибьютером Surgical Specialties Corporation на территории РФ и Таможенного союза ЕАЭС. Компания активно поставляет и продвигает инновационные безузловые нити с насечками QUILL™, широко используемые в гинекологии, урологии, пластической хирургии.</p>
+                        <h4 class="about-as__short-title">Информация о производителе</h4>
+                        <p class="about-as__text">Surgical Specialties Corporation – это международная компания, которая больше 40 лет производит качественные шовные материалы и хирургические иглы. Специалисты компании уделяют большое значение клиентам в вопросах качества продукции, обслуживании и инновациях. Представители компании остаются преданными своему делу в обеспечении качественной продукцией и положительных клинических результатов. Специалисты компании Surgical Specialties Corporation постоянно создают новую продукцию для улучшения ухода за больными и продвигают медицинские инновации.</p>
+                    </div>
+                    <div class="about-as__block-form">
+                        <img src="img/qwillpack.png" alt="" class="about-as__image">
+                        <form class="form">
+                            <img class="form__image" src="img/union.png" alt="">
+                            <p class="form__title">Получите консультацию нашего специалиста после чего мы отправим Вам бесплатный тестовый образец</p>
+                            <label class="form__description">
+                                Ваше имя и должность:
+                                <input class="form__input" type="text" placeholder="Наталья, специалист по закупкам" required>
+                            </label>
+                            <label class="form__description">
+                                Контактный телефон:
+                                <input class="form__input"  type="tel" placeholder="+7 (999)- 999 - 99 - 99" required>
+                            </label>
+                            <label class="form__description">
+                                E-mail:
+                                <input class="form__input" type="email" placeholder="ooomed@mail.ru" required>
+                            </label>
+                            <button type="submit" class="btn about-as__form-button">Оставить заявку</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__info">
+                    <div class="footer__social">
+                        <img class="footer__icon" src="img/facebook.png" alt="">
+                        <img class="footer__icon" src="img/instagram.png" alt="">
+                        <img class="footer__icon" src="img/vk.png" alt="">
+                    </div>
+                    <p class="footer__requisites">ОГРН 5087746028904</p>
+                    <p class="footer__requisites">ИНН 7728669015</p>
+                    <p class="footer__requisites">Юр. адрес: 117246, г. Москва, Научный пр-д, д. 19</p>
+                </div>
+                <div class="footer__number">
+                    <p class="footer__name">ООО «Ви Эр Групп»</p>
+                    <img src="img/phonecall.png" alt="" class="footer__img-telephone">
+                    <a href="tel:+74951390443" class="footer__phone">+7 (495)139-04-43</a>
+                </div>
+                <div class="footer__feedback">
+                    <div class="footer__technical-task">
+                        <p>Отправьте нам техническое задание</p>
+                        <img src="img/mailicon.png" alt="">
+                    </div>
+                    <p class="footer__email">email: vrgroup@inbox.ru</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+<script>
+    function dropDown() {
+        const x = document.getElementById("dropdown")
+        if (x.className === "navbar__list") {
+            x.className += " dropdown__list"
+        } else {
+            x.className = "navbar__list"
+        }
+    }
+</script>
+<script>
+    const allElementSlider = document.querySelectorAll('.slider__box')
+    const dots = document.querySelectorAll('.application-area__item')
+    function plusSlides(item) {
+        showSlides(item)
+    }
+    function currentSlide(item) {
+        showSlides(item)
+    }
+    function showSlides(n) {
+        if (allElementSlider.length < n + 1) {
+            n = 0
+        }
+        const slider = document.getElementsByClassName("slider");
+        slider[0].style.transform = `translateX(${n * -100}%)`
+        for (let i = 0 ; i < dots.length; i ++) {
+            dots[i].className = dots[i]. className.replace(" application-area__item_active", "")
+        }
+        dots[n].className += " application-area__item_active"
+    }
+</script>
+<script>
+    document.body.addEventListener("click", (e) => {
+        const target = e.target
+        if (target.className === "navbar__link") {
+            e.preventDefault();
+            document.getElementById(target.getAttribute('href')).scrollIntoView({behavior: "smooth"})
+        }
+    })
+</script>
+</body>
+</html>
